@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#7a00ff">
+  <title>Marca Personal · Ingeniero Informático</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link href="/landingKode/src/assets/styles/main.css" rel="stylesheet">
+</head>
+<body data-github-user="Pancho8000">
+  <header class="site-header">
+    <nav class="navbar">
+      <a class="brand" href="#hero" data-i18n="nav.brand">Tu Nombre</a>
+      <button class="nav-toggle" aria-label="Menu">☰</button>
+      <ul class="nav-links">
+        <li><a href="#hero" data-i18n="nav.hero">Inicio</a></li>
+        <li><a href="#about" data-i18n="nav.about">Sobre mí</a></li>
+        <li><a href="#skills" data-i18n="nav.skills">Habilidades</a></li>
+        <li><a href="#projects" data-i18n="nav.projects">Proyectos</a></li>
+        <li><a href="#contact" data-i18n="nav.contact">Contacto</a></li>
+      </ul>
+      <div class="lang-switch">
+        <button data-lang="es" class="lang-btn active">ES</button>
+        <button data-lang="en" class="lang-btn">EN</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <div class="hero-inner">
+        <h1 data-i18n="hero.title">Construyo experiencias web</h1>
+        <p data-i18n="hero.copy">Ingeniero Informático con pasión por el diseño y la ingeniería.</p>
+        <div class="cta">
+          <a href="#projects" class="btn primary" data-i18n="hero.cta">Ver proyectos</a>
+          <a href="/landingKode/public/cv.pdf" class="btn" target="_blank" rel="noopener" data-i18n="hero.cv">Mi Curriculum</a>
+        </div>
+        <div class="tags">
+          <span class="tag" data-i18n="hero.tag.engineer">Ingeniero Informático</span>
+          <span class="tag" data-i18n="hero.tag.fullstack">Desarrollador Full‑Stack</span>
+          <span class="tag" data-i18n="hero.tag.endtoend">End‑to‑End</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section alt">
+      <div class="container">
+        <h2 data-i18n="about.title">Sobre mí</h2>
+        <p data-i18n="about.copy">Ingeniero Informático con enfoque en soluciones creativas y eficientes.</p>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="container">
+        <h2 data-i18n="skills.title">Habilidades</h2>
+        <p data-i18n="skills.subtitle">Tecnologías y herramientas que domino.</p>
+        <div class="grid skills-grid">
+          <div class="card"><span>JavaScript</span></div>
+          <div class="card"><span>HTML5</span></div>
+          <div class="card"><span>CSS3</span></div>
+          <div class="card"><span>Node.js</span></div>
+          <div class="card"><span>SQL</span></div>
+          <div class="card"><span>GitHub</span></div>
+          <div class="card"><span>PHP</span></div>
+          <div class="card"><span>C#</span></div>
+          <div class="card"><span>Docker</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="container">
+        <h2 data-i18n="services.title">Servicios</h2>
+        <p data-i18n="services.subtitle">Qué puedo hacer por tu equipo o proyecto.</p>
+        <div class="grid services-grid">
+          <article class="card">
+            <h3 data-i18n="services.items.dev.title">Desarrollo web a medida</h3>
+            <p data-i18n="services.items.dev.copy">Construcción end‑to‑end con PHP/MySQL, HTML/CSS/Bootstrap y JS modular.</p>
+          </article>
+          <article class="card">
+            <h3 data-i18n="services.items.modern.title">Modernización y mantenimiento</h3>
+            <p data-i18n="services.items.modern.copy">Evolución de sistemas existentes, refactor y mejoras de rendimiento.</p>
+          </article>
+          <article class="card">
+            <h3 data-i18n="services.items.uiux.title">UI/UX funcional</h3>
+            <p data-i18n="services.items.uiux.copy">Componentes, notificaciones, diseño responsivo y accesibilidad nivel práctico.</p>
+          </article>
+          <article class="card">
+            <h3 data-i18n="services.items.auto.title">Automatización y reportes</h3>
+            <p data-i18n="services.items.auto.copy">Bitácora/auditoría, flujos internos y reportes operacionales.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section alt">
+      <div class="container">
+        <h2 data-i18n="projects.title">Proyectos</h2>
+        <p data-i18n="projects.subtitle">Una selección de trabajos recientes.</p>
+        <div class="grid projects-grid">
+          <article class="card project">
+            <h3>notiJS</h3>
+            <p data-i18n="projects.notiDesc">Sistema de notificaciones en JavaScript para mostrar mensajes dinámicos en la interfaz.</p>
+            <a href="#" data-repo="notiJS" target="_blank" rel="noopener" class="btn" data-i18n="projects.viewRepo">Ver repositorio</a>
+          </article>
+          <article class="card project">
+            <h3>sistemaInventario</h3>
+            <p data-i18n="projects.sistemaDesc">Sistema de Inventario y Punto de Venta para pequeños negocios que permite gestionar productos, stock, proveedores, usuarios y ventas diarias con reportes básicos. Desarrollado en PHP nativo con MySQL y HTML/CSS/JavaScript (Bootstrap).</p>
+            <a href="#" data-repo="sistemaInventario" target="_blank" rel="noopener" class="btn" data-i18n="projects.viewRepo">Ver repositorio</a>
+          </article>
+          <article class="card project">
+            <h3>landingKode</h3>
+            <p data-i18n="projects.landingDesc">Landing page de marca personal como Ingeniero Informático, enfocada en un portfolio limpio y creativo.</p>
+            <a href="#" data-repo="landingKode" target="_blank" rel="noopener" class="btn" data-i18n="projects.viewRepo">Ver repositorio</a>
+          </article>
+          <article class="card project">
+            <h3>Puerto Punta Chungo – HECSO</h3>
+            <p data-i18n="projects.puntaDesc">Plataforma web interna de Seguridad, Salud y Ambiente para HECSO en Puerto Punta Chungo, con panel admin para gestionar personas, vehículos, documentación y reportes, y un portal del trabajador con ficha personal, salud ocupacional, encuestas y reportes de incidentes.</p>
+            <span class="badge-private">Repositorio privado</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h2 data-i18n="contact.title">Contacto</h2>
+        <p data-i18n="contact.subtitle">¿Colaboramos? Escríbeme.</p>
+        <div class="contact-actions">
+          <a class="btn primary" href="mailto:f.ulloanecro@gmail.com" data-i18n="contact.email">Email</a>
+          <a class="btn" href="https://www.linkedin.com/in/francisco-canales-ulloa-32a4013b2/" target="_blank" rel="noopener" data-i18n="contact.linkedin">LinkedIn</a>
+          <a class="btn" href="#" data-github-root="true" data-i18n="contact.github">GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <span>&copy; <span id="year"></span> · <span data-i18n="footer.owner">Mi Marca</span></span>
+    </div>
+  </footer>
+
+  <script src="/landingKode/src/assets/scripts/main.js"></script>
+</body>
+</html>
